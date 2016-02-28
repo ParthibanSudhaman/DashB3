@@ -1,0 +1,8 @@
+﻿<label for="chooseGraph">Choose usage: </label><br />
+<select name="chooseGraph" ng-model="vm.selectedData" ng-change="vm.populateGraph(vm.selectedData)">
+    <option value="Cumulative Usage">Cumulative Usage</option>
+    <option value="Individual Usage">Individual Usage</option>
+</select>
+<br />
+<br />
+<nvd3 options='vm.options' data='vm.data'></nvd3>

@@ -66,7 +66,26 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\nv.d3.css" />
+    <Content Include="content\nv.d3.min.css" />
     <Content Include="packages.config" />
+    <Content Include="scripts\libs\D3\angular-nvd3.js" />
+    <Content Include="scripts\libs\D3\angular-nvd3.min.js" />
+    <Content Include="scripts\app\area\services\myService.js" />
+    <Content Include="scripts\app\area\services\_index.js" />
+    <Content Include="scripts\libs\D3\d3.js" />
+    <Content Include="scripts\libs\D3\d3.min.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular-route.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular-route.min.js" />
+    <Content Include="scripts\app\common\module.js" />
+    <Content Include="scripts\app\common\module.require.js" />
+    <Content Include="scripts\app\common\namespace.js" />
+    <Content Include="scripts\app\common\services\EmployeeService.js" />
+    <Content Include="scripts\app\common\services\_index.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular.min.js.map" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular-route.min.js.map" />
+    <Content Include="scripts\libs\D3\LICENSE" />
+    <Content Include="nvd3.license.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,10 +94,35 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="scripts\app\app.js" />
+    <Content Include="scripts\app\area\controllers\myController.js" />
+    <Content Include="scripts\app\area\controllers\_index.js" />
+    <Content Include="scripts\app\area\module.js" />
+    <Content Include="scripts\app\area\module.require.js" />
+    <Content Include="scripts\app\area\templates\area.html" />
+    <Content Include="scripts\app\routes.js" />
+    <Content Include="scripts\app\area\namespace.js" />
+    <Content Include="scripts\app\namespace.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular-mocks.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular.js" />
+    <Content Include="scripts\libs\angularjs\1.5.0\angular.min.js" />
+    <Content Include="scripts\main.js" />
+    <Content Include="scripts\libs\requirejs\2.1.22\r.js" />
+    <Content Include="scripts\libs\requirejs\2.1.22\require.js" />
+    <Content Include="scripts\libs\D3\nv.d3.js" />
+    <Content Include="scripts\libs\D3\nv.d3.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="scripts\app\area\constants\" />
+    <Folder Include="scripts\app\area\directives\" />
+    <Folder Include="scripts\app\area\filters\" />
+    <Folder Include="scripts\app\configs\" />
+    <Folder Include="styles\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
